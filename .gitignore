@@ -46,3 +46,10 @@ Thumbs.db
 
 # Logs
 *.log
+
+
+# NetSentinel-AI generated dataset reports and DuckDB files
+docs/reports/duplicate_check.duckdb
+docs/reports/duplicate_check.duckdb.wal
+docs/reports/duckdb_tmp/
+dataset_inspection.txt

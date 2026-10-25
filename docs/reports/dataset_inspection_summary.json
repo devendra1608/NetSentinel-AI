@@ -1,0 +1,156 @@
+{
+  "dataset": "CICIDS2017",
+  "files_inspected": 8,
+  "total_rows": 2830743,
+  "total_distinct_raw_labels": 15,
+  "reference_column_count": 79,
+  "all_schemas_match": true,
+  "files": [
+    {
+      "file": "Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv",
+      "rows": 225745,
+      "columns": 79,
+      "duplicate_rows_within_file": 2633,
+      "distinct_labels": 2,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv",
+      "rows": 286467,
+      "columns": 79,
+      "duplicate_rows_within_file": 72353,
+      "distinct_labels": 2,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Friday-WorkingHours-Morning.pcap_ISCX.csv",
+      "rows": 191033,
+      "columns": 79,
+      "duplicate_rows_within_file": 6888,
+      "distinct_labels": 2,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Monday-WorkingHours.pcap_ISCX.csv",
+      "rows": 529918,
+      "columns": 79,
+      "duplicate_rows_within_file": 26935,
+      "distinct_labels": 1,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv",
+      "rows": 288602,
+      "columns": 79,
+      "duplicate_rows_within_file": 35630,
+      "distinct_labels": 2,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv",
+      "rows": 170366,
+      "columns": 79,
+      "duplicate_rows_within_file": 6066,
+      "distinct_labels": 4,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Tuesday-WorkingHours.pcap_ISCX.csv",
+      "rows": 445909,
+      "columns": 79,
+      "duplicate_rows_within_file": 24065,
+      "distinct_labels": 3,
+      "schema_matches_reference": true
+    },
+    {
+      "file": "Wednesday-workingHours.pcap_ISCX.csv",
+      "rows": 692703,
+      "columns": 79,
+      "duplicate_rows_within_file": 81909,
+      "distinct_labels": 6,
+      "schema_matches_reference": true
+    }
+  ],
+  "global_labels": [
+    {
+      "label": "BENIGN",
+      "count": 2273097,
+      "percentage": 80.300366
+    },
+    {
+      "label": "DoS Hulk",
+      "count": 231073,
+      "percentage": 8.162981
+    },
+    {
+      "label": "PortScan",
+      "count": 158930,
+      "percentage": 5.614427
+    },
+    {
+      "label": "DDoS",
+      "count": 128027,
+      "percentage": 4.522735
+    },
+    {
+      "label": "DoS GoldenEye",
+      "count": 10293,
+      "percentage": 0.363615
+    },
+    {
+      "label": "FTP-Patator",
+      "count": 7938,
+      "percentage": 0.280421
+    },
+    {
+      "label": "SSH-Patator",
+      "count": 5897,
+      "percentage": 0.20832
+    },
+    {
+      "label": "DoS slowloris",
+      "count": 5796,
+      "percentage": 0.204752
+    },
+    {
+      "label": "DoS Slowhttptest",
+      "count": 5499,
+      "percentage": 0.19426
+    },
+    {
+      "label": "Bot",
+      "count": 1966,
+      "percentage": 0.069452
+    },
+    {
+      "label": "Web Attack � Brute Force",
+      "count": 1507,
+      "percentage": 0.053237
+    },
+    {
+      "label": "Web Attack � XSS",
+      "count": 652,
+      "percentage": 0.023033
+    },
+    {
+      "label": "Infiltration",
+      "count": 36,
+      "percentage": 0.001272
+    },
+    {
+      "label": "Web Attack � Sql Injection",
+      "count": 21,
+      "percentage": 0.000742
+    },
+    {
+      "label": "Heartbleed",
+      "count": 11,
+      "percentage": 0.000389
+    }
+  ],
+  "notes": [
+    "Raw labels are preserved; no label normalization was applied.",
+    "Duplicate counts are per file, not across different files.",
+    "Duplicate detection uses 64-bit row hashes."
+  ]
+}
