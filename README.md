@@ -1,8 +1,6 @@
 ﻿# NetSentinel-AI
 
-A machine-learning-powered network intrusion detection system based on
-the research paper "Adaptive Network Anomaly Detection Using Machine
-Learning Approaches" (2025).
+A machine-learning-powered network intrusion detection system.
 
 ## Planned capabilities
 
